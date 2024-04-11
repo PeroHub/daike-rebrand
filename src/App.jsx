@@ -238,7 +238,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-              <div>Python programming</div>
+              <div className='text-blue-500 text-2xl'>Python programming</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   is one of the most popular programing language and due to it's
                   simplicity compare to other language we have to adopt and use it
@@ -269,14 +269,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 max-md:mt-10 text-blue-500">Business risers</div>
-                <div className="mt-5 text-sm text-neutral-500">
-                  Coming soon...
-                </div>
-              </div>
-
-              <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 max-md:mt-10 text-blue-500">Business risers</div>
+                <div className="mt-20 max-md:mt-10 text-2xl text-blue-500">Business risers</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
@@ -561,9 +554,10 @@ function App() {
               <div className="flex flex-col justify-center text-white w-full xl:w-[20%]">
                 <div className="text-lg lg:text-2xl tracking-wide">Address:</div>
                 <div className="mt-6 text-sm lg:text-lg  tracking-wide leading-8">
-                  DLF Avenue, Saket,
+                  #87 Uyo Road, Ikot Ekpene,
                   <br />
-                  New Delhi -110017.
+                  Akwa Ibom State, Nigeria
+
                 </div>
               </div>
               <div className="w-full xl:w-[20%]">

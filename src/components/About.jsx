@@ -47,13 +47,13 @@ export const About = () => {
 
       <section>
             <div className="flex md:hidden mt-10  items-center max-md:flex-wrap">
+              <Link to={'/'}>
               <img
                 loading="lazy"
                 src={daikelogo}
                 alt='daike logo'
                 className=" w-18 h-10 max-w-full"
               />
-              <Link to={'/'}>
                 <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
               </Link>
             </div>
