@@ -53,7 +53,9 @@ export const About = () => {
                 alt='daike logo'
                 className=" w-18 h-10 max-w-full"
               />
-              <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+              <Link to={'/'}>
+                <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+              </Link>
             </div>
 
               <section className='flex md:hidden flex-col pr-40 pl-10 pb-10 pt-5 w-full  rounded-bl-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full'>
@@ -84,11 +86,11 @@ export const About = () => {
      
      <div className='lg:w-[50%]'>
         <section>
-          <div className="mt-20 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10 max-md:max-w-full">
+          <div className="mt-20 text-2xl p-2 font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10 max-md:max-w-full">
             GENERAL BUSINESS ACTIVITIES
           </div>
 
-          <div className="mt-10 text-center tracking-wide text-black max-md:max-w-full">
+          <div className="mt-10 text-center p-2 tracking-wide text-black max-md:max-w-full">
             Daikesglobal Business space is cooperate and professional company founded
             2018 with cooperate affairs registration. The company is established to
             provide tech solutions, innovations and entrepreneurial services to global
@@ -104,11 +106,11 @@ export const About = () => {
         </section>
 
         <section>
-          <div className=" mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
+          <div className=" mt-10 text-2xl p-2 font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
             MISSION
           </div>
 
-          <div className="mt-10 text-center tracking-wide  max-md:mt-10 max-md:max-w-full">
+          <div className="mt-10 text-center p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
             We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm yоur
             business. Whether it be а new website, mаrketing саmраign оr рrоduсtivity
             imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur business.
@@ -116,22 +118,22 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
+          <div className="mt-10 text-2xl p-2 font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
             VISION
           </div>
 
-          <div className="mt-10 text-center tracking-wide  max-md:mt-10 max-md:max-w-full">
+          <div className="mt-10 text-center p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
             To be global leader in technology and production services through
             professional practice and high quality of our products.
           </div>
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
+          <div className="mt-10 text-2xl p-2 font-bold tracking-wide text-center leading-[48.96px] text-neutral-700">
             GOAL
           </div>
           
-          <div className="mt-10 text-center tracking-wide  max-md:mt-10 max-md:max-w-full">
+          <div className="mt-10 text-center p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
             To develop a strong base to all customers and build a good reputation in
             the world of technology. becoming a key player in the business.
           </div>
@@ -142,11 +144,11 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl p-2 font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
             CORE VALUE
           </div>
 
-          <div className="mt-10 text-center  tracking-wide text-black  max-md:mt-10 max-md:max-w-full">
+          <div className="mt-10 text-center p-2  tracking-wide text-black  max-md:mt-10 max-md:max-w-full">
             As a top class company we believe in serving and satisfying our customer
             we integrate honesty integrity and business ethics into all aspect of our
             business functioning.
@@ -154,22 +156,22 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl font-bold p-2 tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
             ENTREPRENEURSHIP
           </div>
 
-          <div className="mt-10 text-center tracking-wide text-black  max-md:mt-10 max-md:max-w-full">
+          <div className="mt-10 text-center tracking-wide p-2 text-black  max-md:mt-10 max-md:max-w-full">
             We constantly seek and develop new business ideas, employing the best
             method to retain our market leadership.
           </div>
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl font-bold p-2 tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
             LEADERSHIP
           </div>
 
-          <div className="text-center max-md:max-w-full">
+          <div className="text-center max-md:max-w-full p-2">
             We thrive on being a pace setter in our business markets and communities.
             To accelerate this, we focus on constant improvement partnership and
             professionalism.
@@ -181,11 +183,11 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl font-bold p-2 tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
             EXCELLENCE
           </div>
 
-          <div className="text-center max-md:max-w-full">
+          <div className="text-center max-md:max-w-full p-2">
             We are coorporate firm knitted together to deliver quality products and
             services to our valuable customer and stake holder and to achieve this we
             demonstrate team work and respect.
@@ -193,31 +195,31 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl font-bold tracking-wide p-2 text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
           SAFETY POLICY
           </div>
 
-          <div className="text-center max-md:max-w-full">
+          <div className="text-center max-md:max-w-full p-2">
             The Company  believes that  accident is preventable and this will Comply with  international, federal, state, local and recognize industrial safety  laws. The management accepts responsibility for providing a safe working  environment and well spelt out accident prevention procedure at each  site.
           </div>
         </section>
 
         <section>
-          <div className=" mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className=" mt-10 text-2xl font-bold tracking-wide p-2 text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
           SCOPE OF WORK
           </div>
 
-          <div className="max-md:max-w-full text-center">
+          <div className="max-md:max-w-full text-center p-2">
           We constantly seek and develop new business ideas, employing the best method to retain our market leadership.
           </div>
         </section>
 
         <section className='mb-20'>
-          <div className="mt-10 text-2xl font-bold tracking-wide text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
+          <div className="mt-10 text-2xl font-bold tracking-wide p-2 text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
           ENTREPRENEURSHIP
           </div>
 
-          <div className="max-md:max-w-full text-center">
+          <div className="max-md:max-w-full text-center p-2">
             We constantly seek and develop new business ideas, employing the best method to retain our market leadership.
           </div>
         </section>

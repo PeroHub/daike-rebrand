@@ -31,8 +31,8 @@ function App() {
 
   return (
     <>
-    <div>
-        <header className='flex'>
+    <div style={{overflowX: "hidden"}}>
+        <header className='flex' style={{overflowX: "hidden"}}>
           <section className='pr-10 pl-40 pb-10 pt-5 hidden md:block'>
             <div className="flex  items-center max-md:flex-wrap">
               <img
@@ -93,7 +93,7 @@ function App() {
 
         </header>
 
-          <section>
+          <section style={{overflowX: "hidden"}}>
             <div className="flex md:hidden mt-10  items-center max-md:flex-wrap">
               <img
                 loading="lazy"
@@ -170,9 +170,9 @@ function App() {
         <main>
           <section className='flex gap-10 mt-20 w-50'>
             <div>
-                <div className="flex flex-col grow items-start p-6 md:pl-20 pt-11 h-full min-w-full bg-indigo-100 rounded-xl">
+                <div className="flex flex-col grow items-start p-4 md:p-6 md:pl-20 pt-11 h-full min-w-full bg-indigo-100 rounded-xl">
                   <div className="flex flex-col md:ml-20 max-w-full w-[612px]">
-                    <div className="text-2xl md:text-3xl tracking-tighter text-blue-500 max-md:max-w-full ">
+                    <div className="text-xl md:text-3xl tracking-tighter text-blue-500 max-md:max-w-full ">
                       360-degree Solution to your Business
                     </div>
                     <div className="mt-10 text-sm md:text-lg text-black max-md:max-w-full">
@@ -269,21 +269,21 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 max-md:mt-10">Business risers</div>
+                <div className="mt-20 max-md:mt-10 text-blue-500">Business risers</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 max-md:mt-10">Business risers</div>
+                <div className="mt-20 max-md:mt-10 text-blue-500">Business risers</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 text-2xl text-blue-500">Marketplace</div>
+                <div className="mt-5 lg:mt-20 text-2xl text-blue-500">Marketplace</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
@@ -295,8 +295,8 @@ function App() {
             </div>
           </section>
 
-          <section className=''>
-            <div className="mt:mt-8 w-full max-md:max-w-full">
+          <section className='' style={{overflowX: "hidden"}}>
+            <div className=" w-full max-md:max-w-full">
               <div className="flex gap-10 justify-between max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col md:w-[57%] mt-40 max-md:ml-0 max-md:w-full">
                   <div className='md:flex  md:items-center justify-between' style={{backgroundColor: "rgba(47, 128, 237, 0.2)", borderRadius: "0px 162px 162px 0px", padding: "15vh"}}>
@@ -337,10 +337,10 @@ function App() {
           </div>
           </section>
 
-          <section>
+          <section style={{overflowX: "hidden"}}>
             <div className=''>
               <div className="flex flex-col px-5 mt-2 max-md:max-w-full">
-                <div className="self-start ml-[140px] text-4xl text-blue-500 max-md:ml-2.5 max-md:text-2xl">
+                <div className="self-start mt-20 md:mt-0 ml-[140px] text-4xl text-blue-500 max-md:ml-2.5 max-md:text-2xl">
                   Projects
                 </div>
                 <div className="flex justify-center items-center px-16 py-16 mt-16 bg-blue-500 rounded-none max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -523,7 +523,7 @@ function App() {
           </section>
         </main>
 
-        <footer>
+        <footer style={{overflowX: "hidden"}}>
           <div className="flex justify-between items-center px-16 py-20 mt-36 w-full bg-blue-500 max-md:px-5 max-md:mt-10 max-md:max-w-full">
             <div className="flex justify-between gap-5 items-start mt-5 mb-1.5 w-full flex-wrap">
               <div className="flex flex-col mt-1.5 w-full xl:w-[20%]">
