@@ -52,9 +52,7 @@ function App() {
             </div>
 
             <div className="mt-5  max-md:max-w-full">
-              We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm yоur
-              business. Whether it be а new website, mаrketing саmраign оr рrоduсtivity
-              imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur business.
+              Professional delivery of technology solutions to global businesses sphere in marketing, Engineering and software industries.
             </div>
           </section>
 
@@ -101,7 +99,7 @@ function App() {
                 alt='daike logo'
                 className=" w-18 h-10 max-w-full"
               />
-              <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+              <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS </div>
             </div>
 
               <section className='flex md:hidden flex-col pr-40 pl-10 pb-10 pt-5 w-full bg-blue-500 rounded-bl-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full'>
@@ -133,9 +131,7 @@ function App() {
                   </div>
 
                   <div className="mt-5 text-sm text-white  max-md:max-w-full">
-                    We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm yоur
-                    business. Whether it be а new website, mаrketing саmраign оr рrоduсtivity
-                    imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur business.
+                    Professional delivery of technology solutions to global businesses sphere in marketing, Engineering and software industries.
                   </div>
                 </section>
 
@@ -154,8 +150,6 @@ function App() {
           </section>
 
         
-
-
         <section className='hidden lg:block'>
           <div className="flex pl-40  justify-between self-center mt-24 w-full max-w-[1790px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
             <ImageCom img={gapics} />
@@ -218,20 +212,14 @@ function App() {
                   Electrical wiring system
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
-                  Since the world of power is changing and growing rapidly,
-                  daikesglobal team have being making a lot of effort towards
-                  working on software that will make electrical wiring testing and
-                  installation easier for both technicians and engineers within
-                  this field. Due to our experience in this field, we have to
-                  harness our innovative ideas to contribute to the world of
-                  electrical power.{" "}
+                  Since the world of electrical power system is changing and growing rapidly, daikesglobal team have been making a lot of efforts towards working on software that will enhance professionalism in this area. Through our experience and expertise we have endeavor to harness our innovative ideas in contribution to the world of electrical power system..{" "}
                 </div>
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
                 <div className="text-2xl text-blue-500">Solar system</div>
                 <div className="mt-5 text-sm text-neutral-500">
-                  has become most of the dominant source of energy in today's
+                  Solar system has become most of the dominant source of energy in today's
                   world and we are not ignorant of that fact. So we make use of
                   the best solar products during our selection and installation.
                 </div>
@@ -240,7 +228,7 @@ function App() {
               <div className='lg:w-[30%] min-h-[20px]'>
               <div className='text-blue-500 text-2xl'>Python programming</div>
                 <div className="mt-5 text-sm text-neutral-500">
-                  is one of the most popular programing language and due to it's
+                Python programming is one of the most popular programing language and due to it's
                   simplicity compare to other language we have to adopt and use it
                   for most of our projects.
                 </div>
@@ -277,6 +265,13 @@ function App() {
 
               <div className='lg:w-[30%] min-h-[20px]'>
                 <div className="mt-5 lg:mt-20 text-2xl text-blue-500">Marketplace</div>
+                <div className="mt-5 text-sm text-neutral-500">
+                  Coming soon...
+                </div>
+              </div>
+
+              <div className='lg:w-[30%] min-h-[20px]'>
+                <div className="mt-5 lg:mt-20 text-2xl text-blue-500">Keep your innovations and research work</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>

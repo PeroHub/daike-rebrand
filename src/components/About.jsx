@@ -47,7 +47,7 @@ export const About = () => {
 
       <section>
             <div className="flex md:hidden mt-10  items-center max-md:flex-wrap">
-              <Link to={'/'}>
+              <Link to={'/'} className='flex'>
               <img
                 loading="lazy"
                 src={daikelogo}
@@ -110,10 +110,22 @@ export const About = () => {
             MISSION
           </div>
 
-          <div className="mt-10 text-center p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
-            We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm yоur
+          <div className="mt-10  p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
+            {/* We аre аn аgenсy thаt believe in the роwer оf digitаl tо trаnsfоrm yоur
             business. Whether it be а new website, mаrketing саmраign оr рrоduсtivity
-            imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur business.
+            imрrоving sоftwаre, digitаl саn trаnsfоrm аnd grоw yоur business. */}
+
+            <ol>
+              <li>
+                To provide professional delivery of technology solutions to global businesses sphere in marketing, Engineering and software industries.
+              </li>
+              <li className='mt-4'>
+                To employ the best of human and technological resources to provide the best of services to our numerous clients without compromising quality and standard.
+              </li>
+              <li className='mt-4'>
+                To lead the way in different areas, such as governance; sustainability and environmental conservation and set a good example for other companies to follow
+              </li>
+            </ol>
           </div>
         </section>
 
