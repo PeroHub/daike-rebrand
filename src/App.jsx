@@ -383,7 +383,7 @@ function App() {
                 </div>
               </div>
               
-              <div className='p-4 pt-10 rounded mt-5 md:hidden' style={{backgroundColor: "rgba(47, 128, 237, 0.2)"}}>
+              <div className=' pt-10 rounded mt-5 md:hidden' style={{backgroundColor: "#0037FF"}}>
                 <div className="p-12 text-sm text-center  text-white bg-blue-500 rounded-[67px] max-md:px-5 md:w-[50%]">
                   I really enjoyed using daikes services, the professionalism was top
                   notch
@@ -397,7 +397,7 @@ function App() {
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/5c63bcd5b043f6a7e5e587c005cf79069060e9aead1371930bdecc9d54dc50c2?"
                         className="shrink-0 my-auto aspect-[0.51] fill-blue-400 w-[10px]"
                       />
-                      <div className="flex gap-10 justify-between items-center">
+                      <div className="flex gap-5 justify-between items-center">
                         <img
                           loading="lazy"
                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/381b253d2d48bbf0807a130e4a25a741fb33eeb1cd789b0e26920cee4c417001?"
