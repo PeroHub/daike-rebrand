@@ -135,8 +135,7 @@ export const About = () => {
           </div>
 
           <div className="mt-10 text-center p-2 tracking-wide  max-md:mt-10 max-md:max-w-full">
-            To be global leader in technology and production services through
-            professional practice and high quality of our products.
+          Our aim is to build a digital continent with the largest market size and work size where 80% of human activities can be done digitally.
           </div>
         </section>
 
@@ -162,7 +161,7 @@ export const About = () => {
 
           <div className="mt-10 text-center p-2  tracking-wide text-black  max-md:mt-10 max-md:max-w-full">
             As a top class company we believe in serving and satisfying our customer.
-            We integrate honesty integrity and business ethics into all aspect of our
+            We integrate honesty, integrity and business ethics into all aspect of our
             business functioning.
           </div>
         </section>

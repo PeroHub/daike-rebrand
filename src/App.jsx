@@ -201,9 +201,7 @@ function App() {
                   1. Software Development
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
-                  Daikesglobal tech make use of most innovative software tools to
-                  work on vulnerability or defect of software that could permit
-                  attackers to have illegal access of a system.{" "}
+                We follow due process or sequence activities when developing a project. This include software specifications, development, validation and evaluation. We also use innovative software tools to analyze on vulnerability or defect of software that could permit attackers to have illegal access of a system.
                 </div>
               </div>
 
