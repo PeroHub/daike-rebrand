@@ -41,7 +41,7 @@ function App() {
                 alt='daike logo'
                 className=" w-18 h-10 max-w-full"
               />
-              <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+              <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS</div>
             </div>
 
             <div className="mt-20 text-3xl font-bold tracking-wide leading-[45px] text-neutral-700  max-md:text-4xl max-md:leading-[60px]">
@@ -56,7 +56,7 @@ function App() {
             </div>
           </section>
 
-          <section className='hidden xl:flex  flex-col  pl-10 pb-10 pt-5 w-full bg-blue-500 rounded-bl-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full'>
+          <section className='hidden xl:flex  flex-col  pl-10 pb-10 pt-5 w-full  rounded-bl-3xl max-md:px-5  max-md:mt-10 max-md:max-w-full' style={{background: "#0037FF"}}>
             <ul className="flex gap-5  items-center text-sm  text-white max-md:flex-wrap max-md:max-w-full">
                 <li className="">Sign in</li>
                 <li className="">Sign up</li>
@@ -66,11 +66,11 @@ function App() {
                   
                   </li>
                 <li className="self-stretch my-auto">Contact Us</li>
-                <div className="flex gap-2.5 self-stretch px-8 py-3 text-sm text-blue-500 whitespace-nowrap rounded-2xl bg-zinc-100 max-md:px-5">
+                <div className="flex gap-2.5 self-stretch px-8 py-3 text-sm text-blue-900 whitespace-nowrap rounded-2xl bg-zinc-100 max-md:px-5">
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/e17e75e9765f3f6c1b7d6e4dcf6a065703d882eeed7f7d1459e48f87f20aaee1?"
-                    className="shrink-0 aspect-square fill-blue-500 w-[15px]"
+                    className="shrink-0 aspect-square fill-blue-900 w-[15px]"
                   />
                   <div>Search</div>
                 </div>
@@ -102,7 +102,7 @@ function App() {
               <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS </div>
             </div>
 
-              <section className='flex md:hidden flex-col pr-40 pl-10 pb-10 pt-5 w-full bg-blue-500 rounded-bl-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full'>
+              <section className='flex md:hidden flex-col pr-40 pl-10 pb-10 pt-5 w-full rounded-bl-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full' style={{backgroundColor: "#0037FF"}}>
               <div className="flex gap-5  flex-wrap items-center w-full text-sm  text-white max-md:flex-wrap max-md:max-w-full">
                   <div className="self-stretch my-auto px-3 py-2 text-sm text-blue-500 rounded-2xl bg-zinc-100">Sign in</div>
                   <div className="self-stretch my-auto">Sign up</div>
@@ -164,12 +164,12 @@ function App() {
         <main>
           <section className='flex gap-10 mt-20 w-50'>
             <div>
-                <div className="flex flex-col grow items-start p-4 md:p-6 md:pl-20 pt-11 h-full min-w-full bg-indigo-100 rounded-xl">
+                <div className="flex flex-col grow items-start p-4 md:p-6 md:pl-20 pt-11 h-full min-w-full rounded-xl" style={{background: "#0037FF"}}>
                   <div className="flex flex-col md:ml-20 max-w-full w-[612px]">
-                    <div className="text-xl md:text-3xl tracking-tighter text-blue-500 max-md:max-w-full ">
+                    <div className="text-xl md:text-3xl tracking-tighter text-white max-md:max-w-full ">
                       360-degree Solution to your Business
                     </div>
-                    <div className="mt-10 text-sm md:text-lg text-black max-md:max-w-full">
+                    <div className="mt-10 text-sm md:text-lg text-white max-md:max-w-full">
                       Software Dev and vulnerability analysis
                       <br />
                       <br />
@@ -197,7 +197,7 @@ function App() {
           <section className='p-6 lg:pl-40 mt-20'>
             <div className='flex flex-wrap gap-10'>
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="text-2xl text-blue-500">
+                <div className="text-2xl" style={{color: "#0037FF"}}>
                   1. Software Development
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
@@ -208,7 +208,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="text-2xl text-blue-500">
+                <div className="text-2xl" style={{color: "#0037FF"}}>
                   Electrical wiring system
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
@@ -217,7 +217,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="text-2xl text-blue-500">Solar system</div>
+                <div className="text-2xl" style={{color: "#0037FF"}}>Solar system</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Solar system has become most of the dominant source of energy in today's
                   world and we are not ignorant of that fact. So we make use of
@@ -226,7 +226,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-              <div className='text-blue-500 text-2xl'>Python programming</div>
+              <div className='text-2xl' style={{color: "#0037FF"}}>Python programming</div>
                 <div className="mt-5 text-sm text-neutral-500">
                 Python programming is one of the most popular programing language and due to it's
                   simplicity compare to other language we have to adopt and use it
@@ -235,7 +235,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-              <div className="text-2xl text-blue-500">
+              <div className="text-2xl"style={{color: "#0037FF"}}>
                   Project research works
                 </div>
                 <div className="mt-5 text-lg text-neutral-500">
@@ -246,7 +246,7 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="text-2xl text-blue-500 max-md:max-w-full">
+                <div className="text-2xl max-md:max-w-full" style={{color: "#0037FF"}}>
                   Cctv and access door and control system
                 </div>
                 <div className="mt-5 text-sm text-neutral-500 max-md:max-w-full">
@@ -257,21 +257,21 @@ function App() {
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-20 max-md:mt-10 text-2xl text-blue-500">Business risers</div>
+                <div className="mt-20 max-md:mt-10 text-2xl" style={{color: "#0037FF"}}>Business risers</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-5 lg:mt-20 text-2xl text-blue-500">Marketplace</div>
+                <div className="mt-5 lg:mt-20 text-2xl" style={{color: "#0037FF"}}>Marketplace</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
               </div>
 
               <div className='lg:w-[30%] min-h-[20px]'>
-                <div className="mt-5 lg:mt-20 text-2xl text-blue-500">Keep your innovations and research work</div>
+                <div className="mt-5 lg:mt-20 text-2xl" style={{color: "#0037FF"}}>Keep your innovations and research work</div>
                 <div className="mt-5 text-sm text-neutral-500">
                   Coming soon...
                 </div>
@@ -279,7 +279,7 @@ function App() {
             </div>
 
             <div className='flex justify-center items-center mt-10'>
-              <button className='bg-blue-500 rounded-[36px] px-10 py-4 justify-center text-white items-center'>Read More</button>
+              <button className=' rounded-[36px] px-10 py-4 justify-center text-white items-center' style={{backgroundColor: "#0037FF"}}>Read More</button>
             </div>
           </section>
 
@@ -287,22 +287,22 @@ function App() {
             <div className=" w-full max-md:max-w-full">
               <div className="flex gap-10 justify-between max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col md:w-[57%] mt-40 max-md:ml-0 max-md:w-full">
-                  <div className='md:flex  md:items-center justify-between' style={{backgroundColor: "rgba(47, 128, 237, 0.2)", borderRadius: "0px 162px 162px 0px", padding: "15vh"}}>
+                  <div className='md:flex  md:items-center justify-between' style={{backgroundColor: "#0037FF", borderRadius: "0px 162px 162px 0px", padding: "15vh"}}>
                     <div className='mt-5 md:mt-0 md:flex flex-col items-center justify-center'>
-                      <p style={{color: "rgba(47, 128, 237, 1)"}} className='text-2xl'>99%</p>
-                      <p style={{color: "rgba(37, 37, 37, 0.6)"}} className='mt-1'>Client Retention</p>
+                      <p className='text-2xl  text-white'>99%</p>
+                      <p className='mt-1  text-white'>Client Retention</p>
                     </div>
                     <div className='mt-5 md:mt-0 md:flex flex-col items-center justify-center'>
-                      <p style={{color: "rgba(47, 128, 237, 1)"}} className='text-2xl'>7</p>
-                      <p style={{color: "rgba(37, 37, 37, 0.6)"}} className='mt-1'>Years of Service</p>
+                      <p className='text-2xl  text-white'>7</p>
+                      <p className='mt-1  text-white'>Years of Service</p>
                     </div>
                     <div className='mt-5 md:mt-0 md:flex flex-col items-center justify-center'>
-                      <p style={{color: "rgba(47, 128, 237, 1)"}} className='text-2xl'>30+</p>
-                      <p style={{color: "rgba(37, 37, 37, 0.6)"}} className='mt-1'>Team of Professional</p>
+                      <p className='text-2xl  text-white'>30+</p>
+                      <p className='mt-1  text-white'>Team of Professional</p>
                     </div>
                     <div className='mt-5 md:mt-0 md:flex flex-col items-center justify-center'>
-                      <p style={{color: "rgba(47, 128, 237, 1)"}} className='text-2xl'>221+</p>
-                      <p style={{color: "rgba(37, 37, 37, 0.6)"}} className='mt-1'>Satisfied clients</p>
+                      <p className='text-2xl  text-white'>221+</p>
+                      <p className='mt-1  text-white'>Satisfied clients</p>
                     </div>
                   </div>
                 </div>
@@ -328,10 +328,10 @@ function App() {
           <section style={{overflowX: "hidden"}}>
             <div className=''>
               <div className="flex flex-col px-5 mt-2 max-md:max-w-full">
-                <div className="self-start mt-20 md:mt-0 ml-[140px] text-4xl text-blue-500 max-md:ml-2.5 max-md:text-2xl">
+                <div className="self-start mt-20 md:mt-0 ml-[140px] text-4xl max-md:ml-2.5 max-md:text-2xl" style={{color: "#0037FF"}}>
                   Projects
                 </div>
-                <div className="flex justify-center items-center px-16 py-16 mt-16 bg-blue-500 rounded-none max-md:px-5 max-md:mt-10 max-md:max-w-full">
+                <div className="flex justify-center items-center px-16 py-16 mt-16  rounded-none max-md:px-5 max-md:mt-10 max-md:max-w-full" style={{backgroundColor: "#0037FF"}}>
                   <div className="mt-7 max-w-full w-[1157px]">
                     <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                       <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
@@ -341,7 +341,7 @@ function App() {
                             src={project}
                             className="w-full aspect-[1.33]"
                           />
-                          <div className="self-center mt-5 text-lg">Expense tracker</div>
+                          <div className="self-center mt-5 text-lg text-white">Expense tracker</div>
                         </div>
                       </div>
                       <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
@@ -351,7 +351,7 @@ function App() {
                             src={gallery}
                             className="w-full aspect-[1.33]"
                           />
-                          <div className="self-center mt-5 text-lg">Gallery</div>
+                          <div className="self-center mt-5 text-lg text-white">Gallery</div>
                         </div>
                       </div>
                       <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
@@ -361,7 +361,7 @@ function App() {
                             src={dashboard}
                             className="w-full aspect-[1.33]"
                           />
-                          <div className="mx-5 text-center mt-5 text-lg max-md:mx-2.5">Centered Image</div>
+                          <div className="mx-5 text-center mt-5 text-lg max-md:mx-2.5 text-white">Centered Image</div>
                         </div>
                       </div>
                     </div>
@@ -374,7 +374,7 @@ function App() {
             <div>
               <div>
                 <div className="flex flex-col self-end mt-20 mr-32 text-right max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-                  <div className="text-4xl tracking-tighter text-blue-500 max-md:max-w-full max-md:text-2xl">
+                  <div className="text-4xl tracking-tighter max-md:max-w-full max-md:text-2xl" style={{color: "#0037FF"}}>
                     Happy Clients About Us
                   </div>
                   <div className="self-end mt-2 text-sm tracking-tighter text-neutral-800">
@@ -431,8 +431,8 @@ function App() {
                       />
                     </div>
                     <div className="flex flex-col justify-center items-center">
-                      <p className='mt-5 text-lg tracking-tight text-black'>James Igwe</p>
-                      <p className='text-sm tracking-normal text-black'>Director</p>
+                      <p className='mt-5 text-lg tracking-tight text-black'>Mr.David</p>
+                      <p className='text-sm tracking-normal text-black'>CEO</p>
                     </div>
                     
                   </div>
@@ -440,7 +440,7 @@ function App() {
               </div>
 
               <div className=' hidden lg:flex justify-end'>
-                <div className="flex flex-col p-10 md:w-[70%] mt-10 rounded-none  max-md:px-5 " style={{backgroundColor: "rgba(47, 128, 237, 0.2)", borderRadius: "162px 0px 0px 162px"}}>
+                <div className="flex flex-col p-10 md:w-[70%] mt-10 rounded-none  max-md:px-5 " style={{backgroundColor: "#0037FF", borderRadius: "162px 0px 0px 162px"}}>
                   <div className="flex gap-5 mt-9 ">
                     <img
                       loading="lazy"
@@ -490,10 +490,10 @@ function App() {
                             className="shrink-0 mt-15 aspect-[0.59] fill-blue-400 w-[15px]"
                           />
                         </div>
-                        <div className="mt-5 text-xl tracking-tight text-black max-md:max-w-full">
-                          James Igwe
+                        <div className="mt-5 text-xl tracking-tight text-white max-md:max-w-full">
+                          Mr.David
                         </div>
-                        <div className=" text-sm tracking-normal text-black max-md:max-w-full">
+                        <div className=" text-sm tracking-normal text-white max-md:max-w-full">
                           Director
                         </div>
                       </div>
@@ -512,7 +512,7 @@ function App() {
         </main>
 
         <footer style={{overflowX: "hidden"}}>
-          <div className="flex justify-between items-center px-16 py-20 mt-36 w-full bg-blue-500 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex justify-between items-center px-16 py-20 mt-36 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full" style={{backgroundColor: "#0037FF"}}>
             <div className="flex justify-between gap-5 items-start mt-5 mb-1.5 w-full flex-wrap">
               <div className="flex flex-col mt-1.5 w-full xl:w-[20%]">
                 <div className="text-lg lg:text-2xl tracking-wide text-white">Phone number:</div>
@@ -559,22 +559,24 @@ function App() {
                 <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                   <div className="flex flex-col max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col grow text-white max-md:mt-10">
-                      <div className="text-lg lg:text-2xl tracking-wide">Services Provided</div>
+                      <div className="text-lg lg:text-2xl tracking-wide">Other</div>
                       <div className="mt-8 text-sm lg:text-lg tracking-wide leading-10">
                         <ul>
                           <li>
-                            Software Dev and vulnerability analysis{" "}
+                            Event
                           </li>
                           <li>
-                            Electrical wiring system <br />Solar system
+                            Company
                           </li>
                           <li>
-                            Python programming
+                            Events
                           </li>
                           <li>
-                            Cctv and access door and control system{" "}
+                            Terms Of Use
                           </li>
-                          <li></li>
+                          <li>
+                            Copyright
+                          </li>
                         </ul>
                       </div>
                     </div>

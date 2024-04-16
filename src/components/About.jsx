@@ -23,7 +23,7 @@ export const About = () => {
               src={daikelogo}
               className="w-18 h-10 max-w-full"
             />
-            <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+            <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS</div>
           </div>
         </Link>
         <div className="flex gap-5 justify-between items-center self-start px-px text-sm max-md:flex-wrap max-md:max-w-full">
@@ -54,7 +54,7 @@ export const About = () => {
                 alt='daike logo'
                 className=" w-18 h-10 max-w-full"
               />
-                <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS SPACE</div>
+                <div className="flex-auto my-auto text-sm">DAIKESGLOBAL BUSINESS</div>
               </Link>
             </div>
 
@@ -91,7 +91,7 @@ export const About = () => {
           </div>
 
           <div className="mt-10 text-center p-2 tracking-wide text-black max-md:max-w-full">
-            Daikesglobal Business space is cooperate and professional company founded
+            Daikesglobal Business is a cooperate and professional company founded
             2018 with cooperate affairs registration. The company is established to
             provide tech solutions, innovations and entrepreneurial services to global
             business sphere in marketing, engineering and software industries. We are
@@ -117,10 +117,10 @@ export const About = () => {
 
             <ol>
               <li>
-                To provide professional delivery of technology solutions to global businesses sphere in marketing, Engineering and software industries.
+                To provide professional delivery of technology solutions to global business sphere in marketing, Engineering and software industries.
               </li>
               <li className='mt-4'>
-                To employ the best of human and technological resources to provide the best of services to our numerous clients without compromising quality and standard.
+              To employ the best human and technological resources in providing the best of services to our clients without compromising quality and standard.
               </li>
               <li className='mt-4'>
                 To lead the way in different areas, such as governance; sustainability and environmental conservation and set a good example for other companies to follow
@@ -161,8 +161,8 @@ export const About = () => {
           </div>
 
           <div className="mt-10 text-center p-2  tracking-wide text-black  max-md:mt-10 max-md:max-w-full">
-            As a top class company we believe in serving and satisfying our customer
-            we integrate honesty integrity and business ethics into all aspect of our
+            As a top class company we believe in serving and satisfying our customer.
+            We integrate honesty integrity and business ethics into all aspect of our
             business functioning.
           </div>
         </section>
@@ -185,7 +185,7 @@ export const About = () => {
 
           <div className="text-center max-md:max-w-full p-2">
             We thrive on being a pace setter in our business markets and communities.
-            To accelerate this, we focus on constant improvement partnership and
+            To accelerate this, we focus on constant improvement, partnership and
             professionalism.
           </div>
 
@@ -212,7 +212,7 @@ export const About = () => {
           </div>
 
           <div className="text-center max-md:max-w-full p-2">
-            The Company  believes that  accident is preventable and this will Comply with  international, federal, state, local and recognize industrial safety  laws. The management accepts responsibility for providing a safe working  environment and well spelt out accident prevention procedure at each  site.
+            The Company  believes that  accident is preventable and this will Comply with  international, national, state, local and recognize industrial safety  laws. The management accepts responsibility for providing a safe working  environment and well spelt out accident prevention procedure at each  site.
           </div>
         </section>
 
@@ -222,18 +222,45 @@ export const About = () => {
           </div>
 
           <div className="max-md:max-w-full text-center p-2">
-          We constantly seek and develop new business ideas, employing the best method to retain our market leadership.
+          Our scope of work encompassed all areas of our services. We provide expertise and process monitoring to the final execution of any project. We also carry out other functionalities like project planning, project control,  and project management during our job execution. <br />
+
+          <br /><p className='text-lg'>Below are the list of our services.</p>
+          <br />
+          <ul>
+
+          <li>
+            Software development and vulnerability analysis.
+          </li><br />
+          <li>
+          Electrical wiring system( Design and installation)
+          </li>
+          <br />
+
+          <li>
+            Solar System
+          </li>
+          <br />
+
+          <li>
+            Python development
+          </li>
+          <br />
+          <li>
+          Project research works.
+          </li>
+          <br />
+
+          <li>
+          Cctv and access door control system.
+          </li>
+          <br />
+          </ul>
+
           </div>
         </section>
 
         <section className='mb-20'>
-          <div className="mt-10 text-2xl font-bold tracking-wide p-2 text-center leading-[48.96px] text-neutral-700 max-md:mt-10">
-          ENTREPRENEURSHIP
-          </div>
-
-          <div className="max-md:max-w-full text-center p-2">
-            We constantly seek and develop new business ideas, employing the best method to retain our market leadership.
-          </div>
+        
         </section>
      </div>
 
