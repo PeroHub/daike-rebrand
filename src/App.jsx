@@ -492,7 +492,7 @@ function App() {
                           Mr.David
                         </div>
                         <div className=" text-sm tracking-normal text-white max-md:max-w-full">
-                          Director
+                          CEO
                         </div>
                       </div>
                     </div>
