@@ -199,7 +199,7 @@ export const About = () => {
           </div>
 
           <div className="text-center max-md:max-w-full p-2">
-            We are coorporate firm knitted together to deliver quality products and
+            We are cooperate firm knitted together to deliver quality products and
             services to our valuable customer and stake holder and to achieve this we
             demonstrate team work and respect.
           </div>

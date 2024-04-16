@@ -383,7 +383,7 @@ function App() {
               
               <div className=' pt-10 rounded mt-5 md:hidden' style={{backgroundColor: "#0037FF"}}>
                 <div className="p-12 text-sm text-center  text-white bg-blue-500 rounded-[67px] max-md:px-5 md:w-[50%]">
-                  I really enjoyed using daikes services, the professionalism was top
+                  I really enjoyed using daikesglobal services, the professionalism was top
                   notch
                 </div>
 
@@ -429,8 +429,8 @@ function App() {
                       />
                     </div>
                     <div className="flex flex-col justify-center items-center">
-                      <p className='mt-5 text-lg tracking-tight text-black'>Mr.David</p>
-                      <p className='text-sm tracking-normal text-black'>CEO</p>
+                      <p className='mt-5 text-lg tracking-tight text-white'>Mr.David</p>
+                      <p className='text-sm tracking-normal text-white'>CEO</p>
                     </div>
                     
                   </div>
