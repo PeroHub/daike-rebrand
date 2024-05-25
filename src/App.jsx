@@ -52,7 +52,7 @@ function App() {
             </div>
 
             <div className="mt-5  max-md:max-w-full">
-              Professional delivery of technology solutions to global businesses sphere in marketing, Engineering and software industries.
+              Professional delivery of technology solutions to global business sphere in marketing, Engineering and software industries.
             </div>
           </section>
 
@@ -79,12 +79,12 @@ function App() {
               <div className="flex mt-10 ml-20 flex-col grow text-lg text-white">
                 <div className="text-lg ">We Provide:</div>
                 <div className="mt-3">
-                  Software Dev and vulnerability analysis
+                  Software development and vulnerability analysis
                 </div>
                 <div className="mt-2">Solar system</div>
                 <div className="mt-2">Python programming</div>
                 <div className="mt-2">Project research works</div>
-                <div className="mt-2">Cctv and access door and control system</div>
+                <div className="mt-2">Cctv, access door and control system</div>
                 <div className='mt-2'>Electrical wiring system ( design and installation)</div>
               </div>
           </section>
@@ -138,12 +138,12 @@ function App() {
                 <div className="flex mt-10 md:ml-20 flex-col grow text-lg text-white">
                   <div className="text-lg ">We Provide:</div>
                   <div className="mt-3 text-sm">
-                    Software Dev and vulnerability analysis
+                    Software development and vulnerability analysis
                   </div>
                   <div className="mt-2 text-sm ">Solar system</div>
                   <div className="mt-2 text-sm ">Python programming</div>
                   <div className="mt-2 text-sm ">Project research works</div>
-                  <div className="mt-2 text-sm ">Cctv and access door and control system</div>
+                  <div className="mt-2 text-sm ">Cctv, access door and control system</div>
                   <div className='mt-2 text-sm '>Electrical wiring system ( design and installation)</div>
                 </div>
             </section>
@@ -170,13 +170,13 @@ function App() {
                       360-degree Solution to your Business
                     </div>
                     <div className="mt-10 text-sm md:text-lg text-white max-md:max-w-full">
-                      Software Dev and vulnerability analysis
+                      Software development and vulnerability analysis
                       <br />
                       <br />
                       Electrical wiring system ( design and installation)
                       <br />
                       <br />
-                      Cctv and access door and control system
+                      Cctv, access door and control system
                       <br />
                       <br />
                     </div>
@@ -198,7 +198,8 @@ function App() {
             <div className='flex flex-wrap gap-10'>
               <div className='lg:w-[30%] min-h-[20px]'>
                 <div className="text-2xl" style={{color: "#0037FF"}}>
-                  1. Software Development
+                  1. Software development and vulnerability analysis
+
                 </div>
                 <div className="mt-5 text-sm text-neutral-500">
                 We follow due process or sequence activities when developing a project. This include software specifications, development, validation and evaluation. We also use innovative software tools to analyze on vulnerability or defect of software that could permit attackers to have illegal access of a system.
@@ -245,7 +246,7 @@ function App() {
 
               <div className='lg:w-[30%] min-h-[20px]'>
                 <div className="text-2xl max-md:max-w-full" style={{color: "#0037FF"}}>
-                  Cctv and access door and control system
+                  Cctv, access door and control system
                 </div>
                 <div className="mt-5 text-sm text-neutral-500 max-md:max-w-full">
                   Daikesglobal space has experience technicians and
@@ -564,11 +565,11 @@ function App() {
                             Event
                           </li>
                           <li>
-                            Company
+                            <Link to={'about'}>Company</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             Events
-                          </li>
+                          </li> */}
                           <li>
                             Terms Of Use
                           </li>
